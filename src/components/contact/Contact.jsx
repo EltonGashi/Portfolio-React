@@ -16,10 +16,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_rrvnzco",
-        "template_3v5nih4",
+        "service_yad50nr",
+        "template_i8m59dl",
         formRef.current,
-        "user_DrriDPTGKO2Zj4RDXCA6W"
+        "PymhyP0mKbK6IYUao"
       )
       .then(
         (result) => {
@@ -63,7 +63,7 @@ const Contact = () => {
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" />
             <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
-            {done && "Thank you..."}
+            {done && "Thank you for contacting me..."}
           </form>
         </div>
       </div>
