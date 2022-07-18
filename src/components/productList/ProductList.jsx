@@ -11,6 +11,8 @@ const ProductList = () => {
         Since I am a student in the second year, I haven't created public or professional projects. 
         But during these two years of college I have created a website with technologies: 
         HTML, CSS, JS, PHP and MySql, and at the moment I am creating a web application where I am using ReactJS for the frontend and my colleague is dealing with the backend.
+
+        You can find the repository of my Website on my GitHub.
         </p>
         <h2>
         Below I have listed some of my social networks where you can contact me through them.
